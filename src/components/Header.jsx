@@ -1,6 +1,6 @@
 
 const Header = () => {
-    <header className='header'>
+    return <header className='header'>
         <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt=""/>
     </header>
 }
