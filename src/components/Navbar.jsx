@@ -1,5 +1,5 @@
 
-const Nav = () => {
+const Navbar = () => {
     return <nav className='nav'>
         <div>
             <a href="">Profile</a>
@@ -19,4 +19,4 @@ const Nav = () => {
 
     </nav>
 }
-export default Nav;
+export default Navbar;
