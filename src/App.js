@@ -1,13 +1,12 @@
 
 import './App.css';
+import Header from './components/Header'
 
 
 function App() {
   return (
    <div className='app-wrapper'>
-     <header className='header'>
-       <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" alt=""/>
-     </header>
+     <Header />
      <nav className='nav'>
        <div>
            <a href="">Profile</a>
