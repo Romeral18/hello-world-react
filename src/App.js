@@ -27,8 +27,18 @@ function App() {
 
      </nav>
      <div className='content'>
-          >      <img src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg" alt=""/>
+          <img src="https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg" alt=""/>
      </div>
+       <div>
+           ava + description
+       </div>
+       <div>
+           My posts
+
+       </div>
+       <div>
+           new post
+       </div>
    </div>
   );
 }
