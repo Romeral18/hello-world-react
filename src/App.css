@@ -25,3 +25,6 @@ grid-template-areas:
 header img{
     width: 30px;
 }
+.content img{
+    width: 300px;
+}
