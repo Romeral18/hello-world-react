@@ -1,9 +1,10 @@
 import React from "react";
 import "./Navbar.module.css";
+import cl from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className="nav">
+    <nav className={cl.nav}>
       <div>
         <a href="projects/hello-world-1/hello-world-react/src/components/Navbar/Navbar">
           Profile
