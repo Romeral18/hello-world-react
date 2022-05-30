@@ -7,7 +7,7 @@ import Cap from "./Cap/Cap";
 
 const Profile = () => {
   return (
-    <div className={cl.content}>
+    <div>
       <BackgroundPhoto />
       <Cap />
       <MyPosts />
