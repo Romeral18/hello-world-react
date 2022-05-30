@@ -6,14 +6,10 @@ const Navbar = (props) => {
   return (
     <nav className={cl.nav}>
       <div>
-        <a href="projects/hello-world-1/hello-world-react/src/components/Navbar/Navbar">
-          Profile
-        </a>
+        <a href="../Profile/Profile">Profile</a>
       </div>
       <div>
-        <a href="projects/hello-world-1/hello-world-react/src/components/Navbar/Navbar">
-          Messages
-        </a>
+        <a href="../Dialogs/Dialogs">Messages</a>
       </div>
       <div>
         <a href="projects/hello-world-1/hello-world-react/src/components/Navbar/Navbar">
