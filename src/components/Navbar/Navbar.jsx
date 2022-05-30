@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.module.css";
 import cl from "./Navbar.module.css";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <nav className={cl.nav}>
       <div>
@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div>
         <a href="projects/hello-world-1/hello-world-react/src/components/Navbar/Navbar">
-          Messanges
+          Messages
         </a>
       </div>
       <div>

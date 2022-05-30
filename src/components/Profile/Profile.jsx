@@ -1,8 +1,7 @@
 import React from "react";
 import "./Profile.module.css";
 import cl from "./Profile.module.css";
-import NewPost from "./NewPost/NewPost";
-import Posts from "./Posts/Posts";
+import MyPosts from "./MyPosts/MyPosts";
 import BackgroundPhoto from "./BackgroundPhoto/BackgroundPhoto";
 import Cap from "./Cap/Cap";
 
@@ -11,14 +10,7 @@ const Profile = () => {
     <div className={cl.content}>
       <BackgroundPhoto />
       <Cap />
-      <NewPost />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
-      <Posts />
+      <MyPosts />
     </div>
   );
 };

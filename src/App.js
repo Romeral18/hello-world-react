@@ -4,11 +4,11 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Profile from "./components/Profile/Profile";
 
-function App() {
+function App(props) {
   return (
     <div className="app-wrapper">
-      <Header />
-      <Navbar />
+      <Header name="Seva" surname="Fedoseev" />
+      <Navbar roto="roto" />
       <Profile />
     </div>
   );
